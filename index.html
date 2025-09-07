@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="schedule.css">
+    <link rel="icon" href="./schedule.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Schedule</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigator">
+            <div class="header">
+                <span class="span1"></span>
+                <span class="span2"></span>
+                <p>Inpection<span>.</span></p>
+            </div>
+
+            <div class="ul">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-user"></i></span>
+                            <span class="title">Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" id="calendar-open">
+                            <span class="icon"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                            <span class="title">Schedule</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-sellsy" aria-hidden="true"></i></span>
+                            <span class="title">Overview</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
+                            <span class="title">Chat</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                            <span class="title">Settings</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="logout">
+                <a href="#">
+                    <span class="icon"><i class="fa fa-sign-out"></i></span>
+                    <span class="title">Logout</span>
+                </a>
+            </div>
+        </div>
+        <!-- navigator end -->
+
+        <div class="main">
+
+            <div class="details">
+                <div class="recentOrders">
+                    <div class="headerbox">
+                        <header>
+                            <h2>Schedule</h2>
+                        </header>
+                        <div class="data">
+                            <span>Aug 5,</span>
+                            <span>2022</span>
+                            <span><i class="fa fa-caret-down"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="havola">
+                        <span><a href="#" class="active">recent added</a></span>
+                        <span><a href="#">in progress</a></span>
+                        <span><a href="#">in review</a></span>
+                        <span><a href="#">completed</a></span>
+                    </div>
+
+                    <div class="recentAdded">
+                        <div class="Templates active">
+                            <div class="head">
+                                <span class="icon"><i class="fa fa-apple"></i></span>
+                                <div>
+                                    <h3>Illustration Templates</h3>
+                                    <span>9:00 AM - 4:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="img">
+                                <img src="girl_hat.jpg" alt="girl_hat">
+                                <img src="girl_hood.jpg" alt="girl_hood">
+                                <img src="girl_mountain.jpg" alt="girl_mountain">
+                            </div>
+                        </div>
+
+                        <div class="Templates">
+                            <div class="head">
+                                <span class="icon"><i class="fa fa-shopping-cart"></i></span>
+                                <div>
+                                    <h3>UI Design</h3>
+                                    <span>9:00 AM - 4:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="img">
+                                <img src="music-1.jpg">
+                                <img src="music-2.jpg">
+                                <img src="girl_mountain.jpg" alt="girl_mountain">
+                            </div>
+                        </div>
+
+                        <div class="Templates">
+                            <div class="head">
+                                <span class="icon"><i class="fa fa-money"></i></span>
+                                <div>
+                                    <h3>UX Design</h3>
+                                    <span>9:00 AM - 4:00 PM</span>
+                                </div>
+                            </div>
+                            <div class="img">
+                                <img src="music-6.jpg">
+                                <img src="girl_hat.jpg" alt="girl_hat">
+                                <img src="girl_hood.jpg" alt="girl_hood">
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <h3>Project Progress</h3>
+                            <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-header">
+                                <span>Illustration Template</span>
+                                <i class="fa fa-pencil-square" aria-hidden="true"></i>
+                            </div>
+                            <div class="details-progress">
+                                <div class="progressOrder">
+                                    <div class="progressArea">
+                                        <svg>
+                                            <circle cx="50" cy="50" r="50"></circle>
+                                            <circle cx="50" cy="50" r="50"></circle>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="progressCustomers">
+                                    <div class="Cartoon">
+                                        <h4>Cartoon Illustration</h4>
+                                        <span>Modern Storytelling</span>
+                                    </div>
+                                    <div class="Cartoon">
+                                        <h4>Abstract Pattern</h4>
+                                        <span>Geometric Shapes</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="recentCustomers">
+                    <div class="toggle">
+                        <span><i class="fa fa-bars"></i></span>
+                    </div>
+                    <div class="searchbox">
+                        <form>
+                            <span class="icon"><i class="fa fa-search"></i></span>
+                            <input type="search" placeholder="Search">
+                        </form>
+                        <div class="user">
+                            <img src="avatar3.png" alt="" srcset="">
+                        </div>
+                    </div>
+
+                    <div class="dataType">
+                        <h4>Meeting</h4>
+                        <span>Aug 3, 2021 - Aug 7, 2021 <i class="fa fa-caret-down"></i></span>
+                    </div>
+
+                    <div class="haftaKunlari">
+                        <div class="Mon">
+                            <span class="mon">
+                                Mon <br />3
+                            </span>
+                            <span>9:00 AM</span>
+                            <span>2:00 PM</span>
+                            <span>4:00 PM</span>
+                        </div>
+                        <!--  -->
+                        <div class="Mon">
+                            <span class="mon">
+                                Tue <br />3
+                            </span>
+                            <span>10:30 AM</span>
+                            <span>1:00 PM</span>
+                            <span>___</span>
+                        </div>
+                        <!--  -->
+                        <div class="Mon">
+                            <span class="mon">
+                                Wed <br />3
+                            </span>
+                            <span>9:00 AM</span>
+                            <span>3:00 PM</span>
+                            <span>6:00 PM</span>
+                        </div>
+                        <!--  -->
+                        <div class="Mon active">
+                            <span class="mon">
+                                Thu <br />3
+                            </span>
+                            <span>11:00 AM</span>
+                            <span>___</span>
+                            <span>3:30 PM</span>
+                        </div>
+                        <!--  -->
+                        <div class="Mon">
+                            <span class="mon">
+                                Fri<br /> 3
+                            </span>
+                            <span>9:15 AM</span>
+                            <span>1:05 PM</span>
+                            <span>5:45 PM</span>
+                        </div>
+                    </div>
+
+                    <div class="files">
+                        <h4>Files</h4>
+                        <a href="#">view all ></a>
+                    </div>
+                    <div class="figma">
+                        <div class="figmablock">
+                            <div class="userlar">
+                                <img src="figma.png" alt="figma png">
+                                <div>
+                                    <span>User flow.fig</span>
+                                    <span>Aug 24, 2021 at 9:50 AM</span>
+                                </div>
+                            </div>
+                            <span>0.6 KB <i class="fa fa-download"></i></span>
+                        </div>
+                        <div class="figmablock">
+                            <div class="userlar">
+                                <img src="figma.png" alt="figma png">
+                                <div>
+                                    <span>Design system.fig</span>
+                                    <span>Aug 24, 2021 at 9:50 AM</span>
+                                </div>
+                            </div>
+                            <span>0.6 KB <i class="fa fa-download"></i></span>
+                        </div>
+                        <div class="figmablock">
+                            <div class="userlar">
+                                <img src="figma.png" alt="figma png">
+                                <div>
+                                    <span>Animation.json</span>
+                                    <span>Aug 24, 2021 at 9:50 AM</span>
+                                </div>
+                            </div>
+                            <span>0.6 KB <i class="fa fa-download"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="calendar">
+                    <div class="close">
+                        <i class="fa fa-times"></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td><span>Sun</span></td>
+                                <td><span>Mon</span></td>
+                                <td><span>Tue</span></td>
+                                <td><span>Wed</span></td>
+                                <td><span>Thu</span></td>
+                                <td><span>Fri</span></td>
+                                <td><span>Sat</span></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span>25</span></td>
+                                <td><span>26</span></td>
+                                <td><span>27</span></td>
+                                <td><span>28</span></td>
+                                <td><span>29</span></td>
+                                <td><span>30</span></td>
+                                <td><span>31</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>1</span></td>
+                                <td><span>2</span></td>
+                                <td><span>3</span></td>
+                                <td><span>4</span></td>
+                                <td><span class="active">5</span></td>
+                                <td><span>6</span></td>
+                                <td><span>7</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>8</span></td>
+                                <td><span>9</span></td>
+                                <td><span>10</span></td>
+                                <td><span>11</span></td>
+                                <td><span>12</span></td>
+                                <td><span>13</span></td>
+                                <td><span>14</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>15</span></td>
+                                <td><span>16</span></td>
+                                <td><span>17</span></td>
+                                <td><span>18</span></td>
+                                <td><span>19</span></td>
+                                <td><span>20</span></td>
+                                <td><span>21</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>23</span></td>
+                                <td><span>24</span></td>
+                                <td><span>25</span></td>
+                                <td><span>26</span></td>
+                                <td><span>27</span></td>
+                                <td><span>28</span></td>
+                            </tr>
+                            <tr>
+                                <td><span>30</span></td>
+                                <td><span>31</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let menuToggle = document.querySelector('.toggle');
+        let nav = document.querySelector('.navigator');
+        let main = document.querySelector('.main');
+
+
+        let span1 = document.querySelector('.span1');
+        let span2 = document.querySelector('.span2');
+
+        menuToggle.onclick = () => {
+            menuToggle.classList.toggle('active');
+            nav.classList.toggle('active');
+            main.classList.toggle('active');
+
+            span1.classList.toggle('active');
+            span2.classList.toggle('active');
+        }
+
+ 
+        let calendarOpen = document.getElementById('calendar-open');
+        let calendar = document.querySelector('.calendar');
+
+        calendarOpen.onclick = () => {
+            calendar.classList.add('active');
+            nav.classList.toggle('active');
+        }
+        
+        let calendarClose = document.querySelector('.close');
+        
+        calendarClose.onclick = () => {
+            calendar.classList.remove('active');
+        }
+
+
+
+    </script>
+</body>
+
+</html>
